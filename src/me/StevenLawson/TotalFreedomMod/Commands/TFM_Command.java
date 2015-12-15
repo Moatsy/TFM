@@ -14,7 +14,7 @@ import org.bukkit.entity.Player;
 
 public abstract class TFM_Command
 {
-    public static final String MSG_NO_PERMS = ChatColor.YELLOW + "You do not have permission to use this command.";
+    public static final String MSG_NO_PERMS = ChatColor.RED + "You do not have permission to use this command.";
     public static final String YOU_ARE_OP = ChatColor.YELLOW + "You are now op!";
     public static final String YOU_ARE_NOT_OP = ChatColor.YELLOW + "You are no longer op!";
     public static final String NOT_FROM_CONSOLE = "This command may not be used from the console.";
